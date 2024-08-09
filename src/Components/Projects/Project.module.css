@@ -1,0 +1,68 @@
+:root {
+  --pic-s: 200px;
+}
+
+.p-link {
+  text-decoration: none;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border: 2px solid brown;
+  border-radius: 8px;
+  font-family: "Inconsolata";
+}
+
+.pic-box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.p-pic {
+  width: var(--pic-s);
+  height: var(--pic-s);
+  transform: scale(1.12);
+  transition: all 0.4s ease-out;
+}
+
+.p-pic:hover {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+
+.slideframe {
+  width: 10rem;
+  padding: 4px;
+  overflow-x: hidden;
+  color: black;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+}
+
+.p-title {
+  text-decoration: none;
+}
+
+.animate {
+  animation: slide-X 10s linear 0s infinite forwards;
+}
+
+@keyframes slide-X {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-500%);
+  }
+}

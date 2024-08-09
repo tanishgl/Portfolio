@@ -1,0 +1,23 @@
+:root {
+  --gradient-1: linear-gradient(30deg, #78c0e0, #449dd1);
+  --gradient-2: linear-gradient(30deg, #f26430, #6761a8);
+  --gradient-3: linear-gradient(30deg, #da627d, #9a348e);
+  --gradient-4: linear-gradient(30deg, #60d394, #aaf683);
+  --gradient-5: linear-gradient(30deg, #563440, #cfcfcd);
+}
+
+.header {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  padding: 2px 8px;
+  letter-spacing: 2px;
+  font-size: 2.32rem;
+  color: #c1eeff;
+  font-family: "Inconsolata";
+  user-select: none;
+}
