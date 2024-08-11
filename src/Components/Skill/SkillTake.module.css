@@ -1,0 +1,65 @@
+.skillrow {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 2rem;
+  align-items: end;
+  color: #fffffc;
+}
+
+.skillcol {
+  width: 50%;
+  height: 2rem;
+  background-color: #001011;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.skilltake {
+  height: 100%;
+  background-color: #98ce00;
+  border-radius: 8px;
+  --level-w: 0%;
+}
+
+.skilltake.animate {
+  animation: skillTake 2s ease-in-out 0s 1 forwards;
+}
+
+@keyframes skillTake {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: var(--level-w);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skillrow {
+    padding: 8px;
+  }
+  .skillcol {
+    width: 75%;
+    height: 1.5rem;
+  }
+  .skillname {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .skillrow {
+    padding: 2px;
+  }
+
+  .skillcol {
+    height: 1rem;
+  }
+
+  .skillname {
+    font-size: 8px;
+  }
+}

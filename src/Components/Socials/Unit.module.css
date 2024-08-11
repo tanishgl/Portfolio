@@ -1,0 +1,18 @@
+.unit {
+  cursor: pointer;
+  padding: 5px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unit:hover {
+  color: red;
+}
+
+.unit-lk {
+  font-size: 1rem;
+  text-decoration: none;
+}

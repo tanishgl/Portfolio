@@ -1,24 +1,24 @@
 [
   {
-    "logoPath": "public/Projects/BKN.png",
+    "logoPath": "Projects/BKN.png",
     "name": "Baby ka naam",
     "desc": "A fun intended website to explore hashtags for couples, crushers or anyone",
     "link": "https://www.babykanaam.com/"
   },
   {
-    "logoPath": "public/Projects/Calc.png",
+    "logoPath": "Projects/Calc.png",
     "name": "Color Calculator",
     "desc": "A spin on regular calculator with features like hide preview and a color palette",
     "link": "https://play.google.com/store/apps/details?id=com.sweetpill.calculator&hl=en"
   },
   {
-    "logoPath": "public/Projects/Game.png",
+    "logoPath": "Projects/Game.png",
     "name": "2048",
     "desc": "How high can you send 2 to it's own power ? Lets play and find out!",
     "link": "https://tanishgl.github.io/lux/"
   },
   {
-    "logoPath": "public/Projects/Khabar.png",
+    "logoPath": "Projects/khabar.png",
     "name": "Khabar",
     "desc": "NEWS TIME! NEWS TIME! NEWS TIME!",
     "link": "https://khabar-asgjcz337-tanishgls-projects.vercel.app/"

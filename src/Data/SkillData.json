@@ -1,0 +1,22 @@
+[
+  {
+    "skill": "Java",
+    "level": 7
+  },
+  {
+    "skill": "React",
+    "level": 5
+  },
+  {
+    "skill": "Javascript",
+    "level": 6
+  },
+  {
+    "skill": "HTML/CSS",
+    "level": 8
+  },
+  {
+    "skill": "MySQL",
+    "level": 5
+  }
+]

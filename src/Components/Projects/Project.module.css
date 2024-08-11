@@ -11,11 +11,20 @@
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  padding: 1rem 2rem;
+  padding: 2rem;
   cursor: pointer;
-  border: 2px solid brown;
+  box-shadow: 2px 1px 2px 1px #c4cad0;
   border-radius: 8px;
   font-family: "Inconsolata";
+  -webkit-transition: all 0.12s ease-out;
+  animation: slide-Y 0.5s ease-in 0s 1 forwards;
+  color: #e0e2db;
+}
+
+.project:hover {
+  transform: scale(1.057);
+  background-color: #0c6291;
+  transition: all 0.2s ease-in-out;
 }
 
 .pic-box {
@@ -27,6 +36,7 @@
 .p-pic {
   width: var(--pic-s);
   height: var(--pic-s);
+  border-radius: 20px 8px 20px 20px;
   transform: scale(1.12);
   transition: all 0.4s ease-out;
 }
@@ -37,10 +47,9 @@
 }
 
 .slideframe {
-  width: 10rem;
+  width: 200px;
   padding: 4px;
   overflow-x: hidden;
-  color: black;
 }
 
 .slider {
@@ -64,5 +73,39 @@
 
   100% {
     transform: translateX(-500%);
+  }
+}
+
+@keyframes slide-Y {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .project {
+    padding: 1rem;
+    align-items: start;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .project {
+    padding: 8px;
+  }
+  .p-title {
+    font-size: 1.2rem;
+  }
+  .p-pic {
+    width: 150px;
+    height: 150px;
+  }
+
+  .slideframe {
+    width: 150px;
   }
 }
